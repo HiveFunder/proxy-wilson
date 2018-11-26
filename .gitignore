@@ -5,6 +5,7 @@
 npm
 npm-debug.log
 node_modules/
+package-lock.json
 
 pids
 *.pid
@@ -24,3 +25,5 @@ coverage
 build/
 dist/
 
+newrelic.js
+newrelic_agent.log
