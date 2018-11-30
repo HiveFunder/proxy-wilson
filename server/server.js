@@ -20,7 +20,7 @@ app.use('/api/:projectId', express.static(path.resolve(__dirname, '../public')))
 
 app.use('/api/:projectId/updates',
   proxy({
-    target: 'http://localhost:8080/',
+    target: 'http://13.57.28.73/',
     changeOrigin: true
   })
 );
